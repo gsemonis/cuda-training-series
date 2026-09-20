@@ -1,0 +1,31 @@
+# ---- Compiled binaries (extensionless, built from .cu/.cpp sources) ----
+# These share a name with their source, so list them explicitly.
+exercises/hw1/hello
+exercises/hw1/vector
+exercises/hw1/matrix_mul
+
+# ---- Object files / intermediates ----
+*.o
+*.obj
+*.d
+*.a
+*.so
+*.lib
+*.dll
+
+# ---- Executables (extension-based) ----
+*.exe
+*.out
+a.out
+
+# ---- CUDA / NVIDIA profiler output ----
+*.nsys-rep
+*.qdrep
+*.qdstrm
+*.ncu-rep
+*.nvvp
+*.sqlite
+
+# ---- Editor / OS cruft ----
+*.swp
+.DS_Store
